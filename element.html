@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>COMMUNITY</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Mixtape template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/elements.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+</head>
+<body>
+<div class="super_container">
+	
+	<!-- Header -->
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-center">
+			<div class="logo"><a href="#">RADIO & MIC</a></div>
+			</div>
+			<nav class="main_nav">
+				<ul class="d-flex flex-row align-items-start justify-content-start">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="music.html">SCHEDULE</a></li>
+					<li><a href="blog.html">RECORDING</a></li>
+					<li><a href="contact.html">REQUEST</a></li>
+					<li><a href="element.html">COMMUNITY</a></li>
+				</ul>
+			</nav>
+			<div class="hamburger ml-auto">
+				<div class="d-flex flex-column align-items-end justify-content-between">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu">
+		<div>
+			<div class="menu_overlay"></div>
+			<div class="menu_container d-flex flex-column align-items-start justify-content-center">
+				<div class="menu_log_reg">
+					<ul class="d-flex flex-row align-items-start justify-content-start">
+						<li><a href="login.html">Login</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				</div>
+				<nav class="menu_nav">
+					<ul class="d-flex flex-column align-items-start justify-content-start">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="music.html">SCHEDULE</a></li>
+						<li><a href="blog.html">RECORDING</a></li>
+						<li><a href="contact.html">REQUEST</a></li>
+						<li><a href="element.html">COMMUNITY</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_inner">
+			<!-- Image artist: https://unsplash.com/@tanelah -->
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/elements.jpg" data-speed="0.8"></div>
+			<div class="home_container">
+				<div class="home_content text-center">
+					<div class="home_subtitle">OUR</div>
+					<div class="home_title">Community</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Elements -->
+
+	<div class="elements">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					
+					<!-- Buttons -->
+					<div class="buttons">
+						<div class="elements_title">Community Members</div>
+						<div class="buttons_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+						    <div class="dropdown" id="dropdown4">
+								<button class="dropdown-btn" onclick="toggleDropdown('dropdown4')">Managing Team</button>
+								<div class="dropdown-content">
+									<a href="#">HOD</a>
+									<a href="#">Station Manager</a>
+									<a href="#">Asst.Manager</a>
+								</div>
+							</div>
+							<div class="dropdown" id="dropdown5">
+								<button class="dropdown-btn" onclick="toggleDropdown('dropdown5')">CHARIOTES</button>
+								<div class="dropdown-content">
+									<a href="#">Sai Teja</a>
+									<a href="#">Shiva Mani</a>
+									<a href="#">Sachitha Rani</a>
+									<a href="#">Shiva Kumar</a>
+								</div>
+							</div>
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>....</title>
+    <style>
+        /* General styling for the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        /* Button with black background and #de4f33 text */
+        .dropdown-btn {
+            background-color: black;
+            color: #de4f33;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 2px solid #de4f33;
+            cursor: pointer;
+        }
+
+        /* Dropdown menu (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+            z-index: 1;
+            border: 1px solid #de4f33;
+        }
+
+        /* Dropdown items */
+        .dropdown-content a {
+            color: #de4f33;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid #de4f33;
+        }
+
+        /* Hover effect */
+        .dropdown-content a:hover {
+            background-color: #de4f33;
+            color: black;
+        }
+
+        /* Show dropdown when active */
+        .dropdown.show .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- First Dropdown -->
+    <div class="dropdown" id="dropdown1">
+        <button class="dropdown-btn" onclick="toggleDropdown('dropdown1')">Content Writers</button>
+        <div class="dropdown-content">
+            <a href="#">Writer 1</a>
+            <a href="#">Writer 2</a>
+            <a href="#">Writer 3</a>
+        </div>
+    </div>
+
+    <!-- Second Dropdown -->
+    <div class="dropdown" id="dropdown2">
+        <button class="dropdown-btn" onclick="toggleDropdown('dropdown2')">RJs</button>
+        <div class="dropdown-content">
+            <a href="#">RJ 1</a>
+            <a href="#">RJ 2</a>
+            <a href="#">RJ 3</a>
+        </div>
+    </div>
+
+    <!-- Third Dropdown -->
+    <div class="dropdown" id="dropdown3">
+        <button class="dropdown-btn" onclick="toggleDropdown('dropdown3')">Editors & Designers</button>
+        <div class="dropdown-content">
+            <a href="#">Editor 1</a>
+            <a href="#">Editor 2</a>
+            <a href="#">Designer 1</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            dropdown.classList.toggle("show");
+        }
+
+        // Close dropdowns when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Accordions & Tabs -->
+					<div class="acc_tabs">
+						<div class="elements_title">Frequently Asked Questions</div>
+						<div class="row acc_tabs_row">
+							
+							<!-- Accordions -->
+							<div class="col-lg-6">
+								<div class="accordions">
+
+									<!-- Accordion -->
+									<div class="accordion_container">
+										<div class="accordion d-flex flex-row align-items-center"><div>How can I request a song on RADIO & MIC?</div></div>
+										<div class="accordion_panel">
+											<div>
+												<p>You can request a song through our website’s "Request a Song" section or by messaging us on our official social media pages</p>
+											</div>
+										</div>
+									</div>
+									
+									<!-- Accordion -->
+									<div class="accordion_container">
+										<div class="accordion d-flex flex-row align-items-center"><div>Can I host my own show on RADIO & MIC?
+										</div></div>
+										<div class="accordion_panel">
+											<div>
+												<p>Yes! We welcome student hosts. Fill out the "Become a Host" form on our website to submit your show idea for approval.
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<!-- Accordion -->
+									<div class="accordion_container">
+										<div class="accordion d-flex flex-row align-items-center active"><div>Where can I listen to RADIO & MIC?</div></div>
+										<div class="accordion_panel">
+											<div>
+												<p>You can stream us live on our website, campus radio booths, and through our mobile app, available for both Android and iOS users.
+												</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- Tabs -->
+							<div class="col-lg-6 tabs_col">
+								<div class="tabs">
+									<div class="tabs_container">
+										<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
+											<div class="tab">STAND OUT Sound</div>
+											<div class="tab">All YOURs</div>
+											<div class="tab active">Music,Talk,& More</div>
+										</div>
+										<div class="tab_panels">
+											<div class="tab_panel">
+												<div class="tab_panel_content">
+													<div class="tab_text">
+														<p>RADIO & MIC brings you the latest music, student discussions, and campus news, keeping you connected and entertained wherever you go.
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="tab_panel">
+												<div class="tab_panel_content">
+													<div class="tab_text">
+														<p>Host your own show, share your thoughts, and engage with a vibrant community. RADIO & MIC is the stage for student voices.
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="tab_panel active">
+												<div class="tab_panel_content">
+													<div class="tab_text">
+														<p>From trending hits to insightful interviews, RADIO & MIC delivers non-stop entertainment and updates straight from your university campus.
+
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Loaders -->
+					<div class="loaders">
+						<div class="elements_title">PROGRESS</div>
+						<div class="row loaders_row">
+
+							<!-- Loader -->
+							<div class="col-xl-3 col-md-6 loader_col">
+								<!-- Loader -->
+								<div class="loader_container text-center">
+									<div class="loader text-center" data-perc="0.90"></div>
+									<div class="loader_content">
+										<div class="loader_title">ON AIR</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Loader -->
+							<div class="col-xl-3 col-md-6 loader_col">
+								<!-- Loader -->
+								<div class="loader_container text-center">
+									<div class="loader text-center" data-perc="0.80"></div>
+									<div class="loader_content">
+										<div class="loader_title">Appreciations</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Loader -->
+							<div class="col-xl-3 col-md-6 loader_col">
+								<!-- Loader -->
+								<div class="loader_container text-center">
+									<div class="loader text-center" data-perc="1.00"></div>
+									<div class="loader_content">
+										<div class="loader_title">Entertainment </div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Loader -->
+							<div class="col-xl-3 col-md-6 loader_col">
+								<!-- Loader -->
+								<div class="loader_container text-center">
+									<div class="loader text-center" data-perc="0.08"></div>
+									<div class="loader_content">
+										<div class="loader_title">Network Delay</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Milestones -->
+					<div class="milestones">
+						<div class="elements_title">Milestones</div>
+						<div class="row milestones_row">
+					
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="22751" data-sign-after="+">0</div>
+										<div class="milestone_text">Contenta Reach</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="196">0</div>
+										<div class="milestone_text">Running Podcasts</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="177">0</div>
+										<div class="milestone_text">Resources</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="18">0</div>
+										<div class="milestone_text">Internships got</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Icon Boxes -->
+					<div class="icon_boxes">
+						<div class="elements_title">Icon Boxes</div>
+						<div class="row icon_boxes_row">
+							
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box">
+									<div class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+										<div class="ib_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+										<div class="ib_title">Connecting CAMPUS</div>
+									</div>
+									<div class="ib_text">
+										<p>The broadcast symbol represents the heart of Radio & Mic, delivering news, music, and stories to every corner of our campus. It embodies seamless communication, ensuring students stay informed and entertained. With every transmission, we bring the campus community together, making every voice heard.
+
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box">
+									<div class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+										<div class="ib_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+										<div class="ib_title">Campus Microphone</div>
+									</div>
+									<div class="ib_text">
+										<p>The microphone is more than just a tool—it’s a gateway to creativity and storytelling at Radio & Mic. Whether through podcasts, interviews, or live shows, it amplifies student voices, empowering them to share ideas, inspire, and entertain in a truly engaging way.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box">
+									<div class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+										<div class="ib_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+										<div class="ib_title">Inspiring</div>
+									</div>
+									<div class="ib_text">
+										<p>Like a diamond, Radio & Mic shines with clarity, brilliance, and impact, setting the standard for campus media. It represents quality content, innovation, and resilience, ensuring that every broadcast is polished, valuable, and unforgettable for our listeners.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+			<div class="newsletter_container">
+				<div class="newsletter_title"><h2>JOIN WITH US</h2></div>
+				<form action="#" id="newsletter_form" class="newsletter_form">
+					<input type="email" class="newsletter_input" placeholder="E-mail" required="required">
+					<button class="newsletter_button">Join</button>
+				</form>
+			</div>
+			<div class="footer_lists d-flex flex-sm-row  flex-column align-items-start justify-content-start ml-xl-auto">
+
+				<!-- Useful Links -->
+				<div class="footer_list">
+					<div class="footer_list_title">Navigate Through</div>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="blog.html">Read contents</a></li>
+						<li><a href="music.html">SCHEDULE</a></li>
+						<li><a href="blog.html">RECORDINGS</a></li>
+						<li><a href="element.html">COMMUNITY</a></li>
+					</ul>
+				</div>
+
+				<!-- Mixtape -->
+				<div class="footer_list">
+					<div class="footer_list_title">RADIO & MIC</div>
+					<ul>
+						<li><a href="index.html">Announcements</a></li>
+						<li><a href="index.html">PR & Marketing</a></li>
+						<li><a href="element.html">Community</a></li>
+					</ul>
+				</div>
+
+				<!-- Connect -->
+				<div class="footer_list">
+					<div class="footer_list_title">Get In Touch</div>
+					<ul>
+						<li><a href="radiondmic225169@gmail.com">Email</a></li>
+						<li><a href="radiondmic225169">Facebook</a></li>
+						<li><a href="radio_nd_mic225169">Instagram</a></li>
+						<li><a href="communityradiondmic">Whatsaap Community</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="copyright_bar">
+			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | RADIO & MIC<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Chariotes</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/elements.js"></script>
+</body>
+</html>
+
